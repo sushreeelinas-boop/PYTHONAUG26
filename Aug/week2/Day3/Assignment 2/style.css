@@ -1,0 +1,315 @@
+/* =========================
+   FORMS
+   ========================= */
+
+.forms-container {
+    display: flex;
+    gap: 20px;
+
+    width: 470px;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+
+/* Individual section */
+.form-section {
+    width: 225px;
+}
+
+
+/* DO / DON'T heading */
+.form-section h3 {
+    font-size: 13px;
+    font-weight: 600;
+
+    margin-bottom: 8px;
+
+    color: #484747;
+}
+
+
+/* Form box */
+.form-box {
+    background-color: #e6e3e3;
+
+    padding: 35px;
+
+    border-radius: 3px;
+}
+
+
+/* Labels */
+.form-box label {
+    display: block;
+
+    font-size: 12px;
+
+    color: #333232;
+
+    margin-bottom: 7px;
+}
+
+
+/* Input fields */
+.form-box input {
+    width: 100%;
+
+    height: 30px;
+
+    border: none;
+
+    background-color: #fcf9f9;
+
+    padding: 8px;
+
+    font-size: 11px;
+
+    outline: none;
+
+    margin-bottom: 15px;
+}
+
+
+/* Last input */
+.form-box input:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Placeholder */
+.form-box input::placeholder {
+    color: #c5c5c5;
+}
+
+
+/* Input focus */
+.form-box input:focus {
+    border: 1px solid #ddd;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .forms-container {
+        width: 90%;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .form-section {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .image-frame {
+        width: 180px;
+        height: 245px;
+    }
+}
+
+/* =========================
+   RESET
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+   ========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #121111;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+   ========================= */
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 15px;
+}
+
+
+/* =========================
+   PREVIEW AREA
+   ========================= */
+
+.preview {
+    width: 490px;
+    height: 385px;
+
+    background-color: #eeeeee;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #e5e5e5;
+}
+
+
+/* =========================
+   CARD
+   ========================= */
+
+.card {
+    width: 240px;
+    height: 300px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   CARD IMAGE
+   ========================= */
+
+.card-image {
+    width: 100%;
+    height: 145px;
+
+    background-color: #a9d9bd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* =========================
+   IMAGE ICON
+   ========================= */
+
+.image-icon {
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid #3d6350;
+
+    border-radius: 5px;
+
+    position: relative;
+}
+
+
+/* Small sun */
+.sun {
+    width: 6px;
+    height: 6px;
+
+    border: 2px solid #3d6350;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: 7px;
+    left: 8px;
+}
+
+
+/* Mountain */
+.mountain {
+    width: 23px;
+    height: 16px;
+
+    border-left: 2px solid #3d6350;
+    border-top: 2px solid #3d6350;
+
+    transform: rotate(45deg);
+
+    position: absolute;
+
+    bottom: 5px;
+    left: 8px;
+}
+
+
+/* =========================
+   CARD CONTENT
+   ========================= */
+
+.card-content {
+    padding: 12px;
+}
+
+
+/* =========================
+   LABEL
+   ========================= */
+
+.label {
+    display: inline-block;
+
+    background-color: #bab8b8;
+
+    padding: 4px 12px;
+
+    border-radius: 8px;
+
+    font-size: 9px;
+
+    margin-bottom: 6px;
+}
+
+
+/* =========================
+   HEADING
+   ========================= */
+
+.card-content h2 {
+    font-size: 18px;
+
+    margin-bottom: 7px;
+}
+
+
+/* =========================
+   DESCRIPTION
+   ========================= */
+
+.card-content p {
+    font-size: 12px;
+
+    line-height: 1.35;
+
+    color: #666;
+
+    margin-bottom: 10px;
+}
+
+
