@@ -1,0 +1,196 @@
+/* =========================
+   RESET
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 600px;
+    align-items: center;
+    
+}
+
+
+/* =========================
+   BODY
+   ========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(251, 248, 248);
+
+    color: #333;
+    
+}
+
+
+/* =========================
+   MAIN CONTAINER
+   ========================= */
+
+.container {
+    width: 500px;
+
+    margin: 0 auto;
+
+    padding-top: 80px;
+    text-align: left;
+}
+
+
+/* =========================
+   FIRST TEXT
+   ========================= */
+
+.heading-text {
+    font-size: 22px;
+
+    line-height: 1.55;
+
+    margin-bottom: 22px;
+}
+
+
+/* Red text */
+.red-text {
+    color: #f0291b;
+}
+
+
+/* Green underlined text */
+.green-text {
+    color: #1b8a40;
+
+    text-decoration: underline;
+}
+
+
+/* =========================
+   VEGETABLE PARAGRAPH
+   ========================= */
+
+.vegetable-text {
+    font-size: 14px;
+
+    line-height: 1.55;
+
+    color: #555;
+
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+table {
+    border-collapse: collapse;
+
+    width: 220px;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Table headings */
+th {
+    text-align: left;
+
+    padding: 5px 8px;
+
+    font-weight: bold;
+
+    color: #333;
+}
+
+
+/* Table cells */
+td {
+    padding: 5px 8px;
+
+    height: 27px;
+}
+
+
+/* Alternating dark rows */
+tr:nth-child(2) td,
+tr:nth-child(4) td,
+tr:nth-child(6) td {
+    background-color: #35403f;
+
+    color: white;
+}
+
+
+/* =========================
+   BRANDING TEXT
+   ========================= */
+
+.branding-text {
+
+    padding-left: 50px;
+
+    font-size: 27px;
+
+    line-height: 1.4;
+    background-color: #efedf1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444444;
+}
+
+
+/* Orange text */
+.orange-text {
+    color: #fb843a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/* Blue text */
+.blue-text {
+    color: #097df9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/* Dark blue text */
+.dark-blue-text {
+    color: #9d43ec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+
+        padding-top: 40px;
+    }
+
+    .heading-text {
+        font-size: 20px;
+    }
+
+    .vegetable-text {
+        font-size: 13px;
+    }
+
+    .branding-text {
+        margin-left: 20px;
+
+        font-size: 24px;
+    }
+}
