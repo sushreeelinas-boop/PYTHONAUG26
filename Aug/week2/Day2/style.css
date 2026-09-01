@@ -11,7 +11,7 @@
  .parent>p{
     background-color: blue;
 } 
-
+/* Adjascent sibling selector */
  .parent+p{
     background-color: aqua;
 } 

@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0785a2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Login Box */
+.login-container {
+    width: 625px;
+    min-height: 695px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    padding: 84px 68px 60px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 400;
+
+    color: #4b4b4b;
+
+    margin-bottom: 18px;
+}
+
+/* Labels */
+form > label {
+    display: block;
+
+    font-size: 20px;
+    color: #111;
+
+    margin-top: 18px;
+    margin-bottom: 3px;
+}
+
+/* Input Fields */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    height: 87px;
+
+    border: 1px solid #ddd;
+
+    padding: 0 31px;
+
+    font-size: 20px;
+
+    outline: none;
+}
+
+input::placeholder {
+    color: #777;
+}
+
+input:focus {
+    border-color: #0785a2;
+}
+
+/* Show Password */
+.show-password {
+    display: flex;
+    align-items: center;
+
+    margin-top: 14px;
+
+    font-size: 18px;
+    color: #444;
+}
+
+.show-password input {
+    width: 16px;
+    height: 16px;
+
+    margin-right: 6px;
+}
+
+.show-password label {
+    cursor: pointer;
+}
+
+/* Sign In Button */
+button {
+    width: 100%;
+    height: 75px;
+
+    margin-top: 27px;
+
+    border: none;
+
+    background-color: #087f9d;
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #066f89;
+}
+
+/* Bottom Links */
+.links {
+    text-align: center;
+
+    margin-top: 44px;
+
+    font-size: 18px;
+
+    color: #444;
+}
+
+.links p {
+    margin-bottom: 11px;
+}
+
+.links a {
+    color: #08758f;
+
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
