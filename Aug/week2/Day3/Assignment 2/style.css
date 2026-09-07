@@ -1,6 +1,3 @@
-/* =========================
-   FORMS
-   ========================= */
 
 .forms-container {
     display: flex;
@@ -17,14 +14,10 @@
     width: 100%;
 }
 
-
-/* Individual section */
 .form-section {
     width: 225px;
 }
 
-
-/* DO / DON'T heading */
 .form-section h3 {
     font-size: 13px;
     font-weight: 600;
@@ -34,8 +27,6 @@
     color: #484747;
 }
 
-
-/* Form box */
 .form-box {
     background-color: #e6e3e3;
 
@@ -44,8 +35,6 @@
     border-radius: 3px;
 }
 
-
-/* Labels */
 .form-box label {
     display: block;
 
@@ -56,8 +45,6 @@
     margin-bottom: 7px;
 }
 
-
-/* Input fields */
 .form-box input {
     width: 100%;
 
@@ -76,28 +63,17 @@
     margin-bottom: 15px;
 }
 
-
-/* Last input */
 .form-box input:last-child {
     margin-bottom: 0;
 }
 
-
-/* Placeholder */
 .form-box input::placeholder {
     color: #c5c5c5;
 }
 
-
-/* Input focus */
 .form-box input:focus {
     border: 1px solid #ddd;
 }
-
-
-/* =========================
-   RESPONSIVE DESIGN
-   ========================= */
 
 @media (max-width: 600px) {
 
@@ -120,31 +96,17 @@
     }
 }
 
-/* =========================
-   RESET
-   ========================= */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/* =========================
-   BODY
-   ========================= */
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: #121111;
 }
-
-
-/* =========================
-   MAIN CONTAINER
-   ========================= */
 
 .container {
     width: 100%;
@@ -156,11 +118,6 @@ body {
 
     padding-top: 15px;
 }
-
-
-/* =========================
-   PREVIEW AREA
-   ========================= */
 
 .preview {
     width: 490px;
@@ -175,11 +132,6 @@ body {
     border: 1px solid #e5e5e5;
 }
 
-
-/* =========================
-   CARD
-   ========================= */
-
 .card {
     width: 240px;
     height: 300px;
@@ -193,11 +145,6 @@ body {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
-
-/* =========================
-   CARD IMAGE
-   ========================= */
-
 .card-image {
     width: 100%;
     height: 145px;
@@ -208,11 +155,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-
-/* =========================
-   IMAGE ICON
-   ========================= */
 
 .image-icon {
     width: 40px;
@@ -225,8 +167,6 @@ body {
     position: relative;
 }
 
-
-/* Small sun */
 .sun {
     width: 6px;
     height: 6px;
@@ -241,8 +181,6 @@ body {
     left: 8px;
 }
 
-
-/* Mountain */
 .mountain {
     width: 23px;
     height: 16px;
@@ -258,19 +196,9 @@ body {
     left: 8px;
 }
 
-
-/* =========================
-   CARD CONTENT
-   ========================= */
-
 .card-content {
     padding: 12px;
 }
-
-
-/* =========================
-   LABEL
-   ========================= */
 
 .label {
     display: inline-block;
@@ -286,21 +214,11 @@ body {
     margin-bottom: 6px;
 }
 
-
-/* =========================
-   HEADING
-   ========================= */
-
 .card-content h2 {
     font-size: 18px;
 
     margin-bottom: 7px;
 }
-
-
-/* =========================
-   DESCRIPTION
-   ========================= */
 
 .card-content p {
     font-size: 12px;
