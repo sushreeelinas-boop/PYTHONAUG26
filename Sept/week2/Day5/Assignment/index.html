@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flavoriz</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ["Inter", "sans-serif"],
+          },
+          colors: {
+            orange: "#FFA51F",
+          },
+        },
+      },
+    };
+  </script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body class="bg-white text-[#252525] font-inter">
+
+  <div class="max-w-[1250px] mx-auto px-5 sm:px-8">
+
+    
+    <nav class="h-[65px] flex items-center justify-between">
+
+      <div class="text-[15px] font-extrabold tracking-[-1px]">
+        FLA<span class="text-[#FFA51F]">VORIZ</span>
+      </div>
+
+      
+      <div class="hidden md:flex items-center gap-8 text-[10px] text-gray-600">
+
+        <a href="#" class="font-bold text-black relative">
+          <span class="text-[#FFA51F] mr-1">•</span> HOME
+        </a>
+
+        <a href="#" class="hover:text-black">ABOUT</a>
+        <a href="#" class="hover:text-black">RECIPES</a>
+        <a href="#" class="hover:text-black">BLOG</a>
+        <a href="#" class="hover:text-black">CONTACT</a>
+
+      </div>
+
+      
+      <div class="flex items-center gap-2">
+
+        <div class="hidden sm:flex items-center bg-[#f7f7f7] rounded-full px-3 py-2 w-[110px]">
+          <input
+            type="text"
+            placeholder="Search..."
+            class="bg-transparent outline-none w-full text-[9px]"
+          />
+          <span class="text-gray-400 text-xs">⌕</span>
+        </div>
+
+        <button class="w-7 h-7 rounded-full bg-[#252525] text-white text-[11px]">
+          
+        </button>
+
+      </div>
+
+    </nav>
+
+
+
+    
+    <section class="relative h-[245px] sm:h-[300px] lg:h-[340px] rounded-[13px] overflow-hidden bg-[#f8f8f6]">
+
+      
+      <div class="absolute z-10 left-[4%] top-1/2 -translate-y-1/2">
+
+        <h1 class="text-[32px] sm:text-[42px] lg:text-[53px] font-bold leading-[1.02] tracking-[-2px]">
+          Adventure<br />
+          of <span class="text-[#FFA51F]">Delicacies</span>
+        </h1>
+
+        <p class="mt-3 text-[9px] sm:text-[11px] text-gray-400 leading-[1.6] max-w-[300px]">
+          Unlock a world of variety culinary recipes and unleash<br class="hidden sm:block" />
+          your inner chef the easy way with Flavoriz.
+        </p>
+
+        <div class="flex gap-2 mt-5">
+
+          <button class="bg-[#252525] text-white rounded-full px-4 py-2 text-[8px] sm:text-[9px]">
+            Explore Recipes
+            <span class="ml-1">↗</span>
+          </button>
+
+          <button class="bg-white border border-gray-200 rounded-full px-4 py-2 text-[8px] sm:text-[9px] text-gray-600">
+            Get Our Mobile App
+            <span class="ml-1"></span>
+          </button>
+
+        </div>
+
+      </div>
+
+      
+      <div class="absolute right-0 top-0 w-[53%] h-full">
+
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/071/143/966/small/grilled-vegetable-vibrant-bell-potatoes-and-onions-arranged-artfully-with-fresh-herbs-creating-a-delicious-and-healthy-foodgraphy-composition-ideal-for-restaurant-menus-or-culinary-websites-photo.jpg"
+          class="w-full h-full object-cover"
+          alt="Food"
+        />
+
+        <div class="absolute inset-y-0 left-0 w-[35%] bg-gradient-to-r from-[#f8f8f6] to-transparent"></div>
+
+      </div>
+
+    </section>
+
+
+
+    
+    <section class="mt-3 grid grid-cols-1 lg:grid-cols-[1fr_390px] gap-3">
+
+      <div class="bg-[#fafafa] rounded-[13px] px-5 py-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
+
+        <div>
+          <div class="text-[13px] mb-3"></div>
+
+          <h3 class="text-[9px] font-bold">User-Centered</h3>
+
+          <p class="text-[8px] text-gray-400 leading-[1.5] mt-2 max-w-[150px]">
+            Your feedback shapes our platform, ensuring a seamless
+            and satisfying culinary journey.
+          </p>
+        </div>
+
+        <div>
+          <div class="text-[13px] mb-3">◐</div>
+
+          <h3 class="text-[9px] font-bold">Diverse Recipes</h3>
+
+          <p class="text-[8px] text-gray-400 leading-[1.5] mt-2 max-w-[150px]">
+            We celebrate diverse culinary traditions from around the
+            world, inspiring you today.
+          </p>
+        </div>
+
+        <div>
+          <div class="text-[13px] mb-3">♡</div>
+
+          <h3 class="text-[9px] font-bold">Fun Community</h3>
+
+          <p class="text-[8px] text-gray-400 leading-[1.5] mt-2 max-w-[150px]">
+            We foster a vibrant foodie community where joy comes
+            with sharing recipes with us.
+          </p>
+        </div>
+
+      </div>
+
+
+     
+      <div class="bg-[#fafafa] rounded-[13px] p-2 flex items-center gap-3">
+
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr5zn4o4Ra7YgNpG9KS8GLsSNd8Ebio24sAj8fb5UFwW5X3H3xl5izfoY&s=10"
+          class="w-[90px] h-[90px] object-cover rounded-[10px]"
+          alt="Featured recipe"
+        />
+
+        <div class="flex-1">
+
+          <p class="text-[7px] uppercase text-[#FFA51F] font-bold">
+            Featured
+          </p>
+
+          <h3 class="text-[11px] font-bold leading-[1.4] mt-2">
+            Calisbury Steak<br />
+            and Asparagus
+          </h3>
+
+          <a href="#" class="text-[8px] underline mt-4 inline-block">
+            See Recipe
+          </a>
+
+        </div>
+
+        <div class="flex flex-col justify-between h-[90px] items-center py-1">
+          <span class="text-gray-400 text-[15px]">♡</span>
+
+          <button class="w-7 h-7 bg-[#FFA51F] text-white rounded-full text-[9px]">
+            ▶
+          </button>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+    <section class="text-center mt-[55px] sm:mt-[75px]">
+
+      <h2 class="text-[27px] sm:text-[35px] lg:text-[40px] font-bold leading-[1.15] tracking-[-1.5px] mt-30">
+        Become a true <span class="text-[#FFA51F]">chef</span><br />
+        with our recipes.
+      </h2>
+
+      <p class="text-[9px] sm:text-[11px] text-gray-400 mt-3 leading-[1.6]">
+        We are a home to variety of recipes<br />
+        worldwide for you to learn.
+      </p>
+
+    </section>
+
+
+
+    
+    <section class="mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_1.8fr_1fr] gap-3 items-center">
+
+      
+      <div class="relative h-[190px] sm:h-[250px] lg:h-[270px] rounded-[13px] overflow-hidden">
+
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD4wtANeq0Gwt1Fh1dUvC2gJEvj6VcbcPUOysAgzpzeQ&s=10"
+          class="w-full h-full object-cover"
+          alt="Cooking"/>
+
+        <div class="absolute top-3 right-3 bg-[#252525] text-white rounded-full px-3 py-2 text-[7px]">
+          Step #1
+        </div>
+
+        <div class="absolute bottom-3 left-3 bg-white rounded-full px-3 py-2 text-[7px]">
+          <span class="text-green-500">✓</span>
+          Easy to follow recipes
+        </div>
+
+      </div>
+
+
+
+     
+      <div class="grid grid-cols-2 gap-3">
+
+        <div class="bg-[#FFA51F] rounded-[13px] p-4 sm:p-5 h-[190px] sm:h-[250px] lg:h-[270px] flex flex-col justify-between mt-20">
+
+          <h3 class="text-white text-[30px] sm:text-[30px] font-bold leading-[1.25] ">
+            “Cooking has<br />
+            never been<br />
+            this easy!”
+          </h3>
+
+          <div class="flex items-center gap-2">
+
+            <img
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+              class="w-6 h-6 rounded-full"
+              alt="Chef"
+            />
+
+            <div>
+              <p class="text-[7px] sm:text-[8px] text-white font-bold">
+                Marsha Rianty
+              </p>
+              <p class="text-[6px] sm:text-[7px] text-white/70">
+                Master Chef 2022
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        
+        <div class="bg-[#fafafa] rounded-[13px] p-2 sm:p-3 h-[190px] sm:h-[250px] lg:h-[270px] flex flex-col justify-center gap-2 mt-20">
+
+          <div class="bg-white rounded-lg p-2 flex items-center gap-2">
+            <div class="w-7 h-7 rounded-full bg-[#fff5df] flex items-center justify-center text-[#f5b63e] text-xs">
+              ♧
+            </div>
+
+            <div>
+              <p class="text-[6px] text-gray-400">Achievement</p>
+              <p class="text-[7px] font-medium">Cook 2 foods today</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg p-2 flex items-center gap-2">
+            <div class="w-7 h-7 rounded-full bg-[#fff5df] flex items-center justify-center text-[#f5b63e] text-xs">
+              ♧
+            </div>
+
+            <div>
+              <p class="text-[6px] text-gray-400">Live Now</p>
+              <p class="text-[7px] font-medium">Chef Mark Johnson</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg p-2 flex items-center gap-2">
+            <div class="w-7 h-7 rounded-full bg-[#fff5df] flex items-center justify-center text-[#f5b63e] text-xs">
+              ♨
+            </div>
+
+            <div>
+              <p class="text-[6px] text-gray-400">Today's Recipe</p>
+              <p class="text-[7px] font-medium">Spaghetti Bolognese</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      
+      <div class="relative h-[190px] sm:h-[250px] lg:h-[270px] rounded-[13px] overflow-hidden">
+
+        <img
+          src="https://www.highspeedtraining.co.uk/hub/wp-content/uploads/2025/01/chef-de-partie-4.jpg"
+          class="w-full h-full object-cover"
+          alt="Chef"
+        />
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+
+        <div class="absolute top-3 left-3 text-white text-[7px]">
+          ● LIVE
+        </div>
+
+        <div class="absolute top-3 right-3 bg-white/90 rounded-full px-3 py-2 text-[7px]">
+          ♡ 100+
+        </div>
+
+        <h3 class="absolute bottom-4 left-4 text-white text-[20px] sm:text-[25px] font-bold leading-[1.1]">
+          Cook with<br />
+          Master Chefs
+        </h3>
+
+      </div>
+
+    </section>
+
+    <div class="h-8"></div>
+
+  </div>
+
+</body>
+</html>
