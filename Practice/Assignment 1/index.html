@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oglure - Aloe Vera</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+        }
+
+        .glass-light {
+            background: rgba(255, 255, 255, 0.82);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .glow {
+            box-shadow: 0 0 100px rgba(70, 180, 100, 0.25);
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-[#e9eee8] flex items-center justify-center p-4 md:p-8">
+
+    <main
+        class="relative w-full max-w-[1280px] min-h-[780px] overflow-hidden
+               rounded-2xl bg-[#075443] text-white shadow-2xl"
+    >
+
+        <div class="absolute -right-20 -top-20 w-96 h-96 rounded-full
+                    bg-[#1c765d] opacity-30 blur-3xl"></div>
+
+        <div class="absolute -left-32 bottom-0 w-96 h-96 rounded-full
+                    bg-[#0b8060] opacity-20 blur-3xl"></div>
+
+
+        <nav class="relative z-10 flex items-center justify-between
+                    px-8 md:px-16 pt-7">
+
+            <div class="flex items-center gap-2">
+                <div class="w-9 h-9 rounded-full border-2 border-white
+                            flex items-center justify-center">
+                    <i class="fa-solid fa-leaf text-sm"></i>
+                </div>
+
+                <span class="font-bold text-lg tracking-wide">
+                    Oglure
+                </span>
+            </div>
+
+
+            <div class="hidden md:flex items-center
+                        bg-white rounded-md overflow-hidden
+                        w-[440px] h-[38px]">
+
+                <i class="fa-solid fa-magnifying-glass
+                          text-gray-400 ml-4 text-sm"></i>
+
+                <input
+                    type="text"
+                    placeholder="Find your plant..."
+                    class="w-full h-full px-3 text-gray-700
+                           text-sm outline-none"
+                >
+            </div>
+
+            <div class="flex items-center gap-6 text-gray-200">
+
+                <i class="fa-solid fa-cart-shopping
+                          text-xl cursor-pointer hover:text-white"></i>
+
+                <i class="fa-regular fa-user
+                          text-xl cursor-pointer hover:text-white"></i>
+
+                <i class="fa-solid fa-bars
+                          text-xl cursor-pointer"></i>
+
+            </div>
+
+        </nav>
+
+
+        <section class="relative z-10 grid md:grid-cols-2
+                        gap-8 px-8 md:px-16 pt-16">
+
+            <div class="flex flex-col justify-center">
+
+                <h1 class="text-5xl md:text-6xl font-semibold
+                           tracking-tight">
+                    Aloe Vera
+                </h1>
+
+                <div class="flex items-center gap-4 mt-5">
+
+                    <span class="text-3xl font-semibold">
+                        $300
+                    </span>
+
+                    <span class="text-sm text-gray-300">
+                        <i class="fa-solid fa-star text-yellow-300 mr-1"></i>
+                        800 people have planted this
+                    </span>
+
+                </div>
+
+                <p class="mt-5 max-w-xl text-sm md:text-base
+                          leading-6 text-gray-300">
+
+                    Aloe Vera is a popular succulent plant known for its
+                    thick, fleshy leaves filled with a soothing gel.
+                    It is widely used for skin and hair care, and
+                    medicinal purposes due to its hydrating healing
+                    properties.
+
+                </p>
+
+                <div class="flex items-center gap-4 mt-7">
+
+                    <div class="glass flex items-center rounded-lg
+                                overflow-hidden h-12">
+
+                        <button
+                            class="w-12 h-full hover:bg-white/10">
+                            −
+                        </button>
+
+                        <span class="px-2">
+                            1
+                        </span>
+
+                        <button
+                            class="w-12 h-full hover:bg-white/10">
+                            +
+                        </button>
+
+                    </div>
+
+                    <button
+                        class="h-12 px-7 rounded-lg
+                               bg-[#9bef75] text-[#075443]
+                               font-semibold
+                               hover:bg-[#b2ff91]
+                               transition">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+                <a href="#"
+                   class="mt-7 text-sm font-medium
+                          inline-flex items-center gap-2
+                          hover:underline">
+
+                    Read More
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+            <div class="relative flex items-center justify-center
+                        min-h-[400px]">
+
+                <div class="absolute w-80 h-80 rounded-full
+                            bg-green-400/20 blur-3xl">
+                </div>
+
+                <img
+                    src="a.png"
+                    alt="Aloe Vera Plant"
+                    class="relative z-10 w-[330px] md:w-[390px]
+                           h-[390px] object-cover
+                           rounded-[45%_45%_25%_25%]
+                           drop-shadow-2xl"
+                >
+
+
+                <div
+                    class="glass absolute top-6 right-4 md:right-5
+                           rounded-xl px-4 py-3
+                           flex items-center gap-3">
+
+                    <div class="w-8 h-8 rounded-full
+                                bg-yellow-300 text-yellow-800
+                                flex items-center justify-center">
+
+                        <i class="fa-solid fa-sun text-sm"></i>
+
+                    </div>
+
+                    <div>
+                        <p class="text-xs text-gray-200">
+                            Atmosphere
+                        </p>
+
+                        <p class="font-semibold text-sm">
+                            Sunny
+                        </p>
+                    </div>
+
+                </div>
+
+                <div
+                    class="glass absolute top-52 left-0 md:left-9
+                           rounded-xl px-4 py-3
+                           flex items-center gap-3">
+
+                    <div class="w-8 h-8 rounded-full
+                                bg-green-300 text-green-800
+                                flex items-center justify-center">
+
+                        <i class="fa-solid fa-droplet text-sm"></i>
+
+                    </div>
+
+                    <div>
+                        <p class="text-xs text-gray-200">
+                            Humidity
+                        </p>
+
+                        <p class="font-semibold text-sm">
+                            37%
+                        </p>
+                    </div>
+
+                </div>
+
+                <div
+                    class="glass absolute top-44 right-0 md:right-4
+                           rounded-xl px-4 py-3
+                           flex items-center gap-3">
+
+                    <div class="w-8 h-8 rounded-full
+                                bg-cyan-400 text-white
+                                flex items-center justify-center">
+
+                        <i class="fa-solid fa-droplet text-sm"></i>
+
+                    </div>
+
+                    <div>
+                        <p class="text-xs text-gray-200">
+                            Water Level
+                        </p>
+
+                        <p class="font-semibold text-sm">
+                            41%
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="glass absolute bottom-12 right-6 md:right-16
+                           rounded-xl px-4 py-3
+                           flex items-center gap-3">
+
+                    <div class="w-8 h-8 rounded-full
+                                bg-fuchsia-500
+                                flex items-center justify-center">
+
+                        <i class="fa-solid fa-seedling text-sm"></i>
+
+                    </div>
+
+                    <div>
+                        <p class="text-xs text-gray-200">
+                            Soil
+                        </p>
+
+                        <p class="font-semibold text-sm">
+                            Good
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="relative z-20 px-8 md:px-16 mt-5 pb-8">
+
+            <div class="relative">
+
+                <button
+                    class="absolute -left-5 top-1/2 -translate-y-1/2
+                           z-30 w-10 h-10 rounded-full
+                           bg-white text-gray-700
+                           shadow-lg hover:scale-110 transition">
+
+                    <i class="fa-solid fa-chevron-left"></i>
+
+                </button>
+
+
+                <div class="grid grid-cols-1 sm:grid-cols-2
+                            lg:grid-cols-4 gap-4">
+
+                    <div
+                        class="glass-light rounded-2xl p-4
+                               text-gray-700 min-h-[145px]
+                               ring-2 ring-green-200">
+
+                        <div class="flex gap-3">
+
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-nQ9xJ7I0b_4x5c0eZpWj9PPMdboVMlNGM4gIlpBVwg&s=10"
+                                class="w-16 h-16 object-cover rounded-xl"
+                            >
+
+                            <div>
+                                <h3 class="font-bold">
+                                    Aloe Vera
+                                </h3>
+
+                                <p class="text-xs text-gray-500 mt-1">
+                                    Aloe Vera is easy to grow
+                                    indoors.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex justify-between items-center mt-3">
+
+                            <span class="text-2xl font-bold">
+                                $300
+                            </span>
+
+                            <button
+                                class="w-8 h-8 rounded-full
+                                       border border-gray-300
+                                       flex items-center justify-center">
+
+                                <i class="fa-solid fa-plus text-sm"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="glass rounded-2xl p-4
+                               min-h-[145px]">
+
+                        <div class="flex gap-3">
+
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlsRuszar3gCxnOcxy0iqr4XYzB2qAu53Dj4TqOEr1wQ&s=10"
+                                class="w-16 h-16 object-cover rounded-xl"
+                            >
+
+                            <div>
+                                <h3 class="font-semibold">
+                                    Golden Barrel Cactus
+                                </h3>
+
+                                <p class="text-xs text-gray-300 mt-1">
+                                    A beautiful low-maintenance
+                                    cactus.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex justify-between items-center mt-3">
+
+                            <span class="text-2xl font-semibold">
+                                $800
+                            </span>
+
+                            <button
+                                class="w-8 h-8 rounded-full
+                                       border border-white/30
+                                       flex items-center justify-center">
+
+                                <i class="fa-solid fa-plus text-sm"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="glass rounded-2xl p-4
+                               min-h-[145px]">
+
+                        <div class="flex gap-3">
+
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUOQrA8lGg7yJidsiTmS2atcBs68egNhZfDEbujvfY0A&s=10"
+                                class="w-16 h-16 object-cover rounded-xl"
+                            >
+
+                            <div>
+                                <h3 class="font-semibold">
+                                    Monstera Deliciosa
+                                </h3>
+
+                                <p class="text-xs text-gray-300 mt-1">
+                                    Beautiful tropical indoor
+                                    plant.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex justify-between items-center mt-3">
+
+                            <span class="text-2xl font-semibold">
+                                $400
+                            </span>
+
+                            <button
+                                class="w-8 h-8 rounded-full
+                                       border border-white/30
+                                       flex items-center justify-center">
+
+                                <i class="fa-solid fa-plus text-sm"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="glass rounded-2xl p-4
+                               min-h-[145px]">
+
+                        <div class="flex gap-3">
+
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwdT9wiKudtE7hnhW3TccjwZmwvU62YIgIbarvyllrA&s=10"
+                                class="w-16 h-16 object-cover rounded-xl"
+                            >
+
+                            <div>
+                                <h3 class="font-semibold">
+                                    Snake Plant
+                                </h3>
+
+                                <p class="text-xs text-gray-300 mt-1">
+                                    Hardy indoor plant with
+                                    beautiful leaves.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex justify-between items-center mt-3">
+
+                            <span class="text-2xl font-semibold">
+                                $500
+                            </span>
+
+                            <button
+                                class="w-8 h-8 rounded-full
+                                       border border-white/30
+                                       flex items-center justify-center">
+
+                                <i class="fa-solid fa-plus text-sm"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button
+                    class="absolute -right-5 top-1/2 -translate-y-1/2
+                           z-30 w-10 h-10 rounded-full
+                           bg-[#8df36d] text-[#075443]
+                           shadow-lg hover:scale-110 transition">
+
+                    <i class="fa-solid fa-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

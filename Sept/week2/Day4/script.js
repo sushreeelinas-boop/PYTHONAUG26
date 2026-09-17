@@ -27,17 +27,17 @@ console.log(obj);
 // ternary operator
 
 // arithmatic operator (+ , - , * , / , % , ** , ++ ,--)
-console.log(2 + 3);
-console.log(5 - 2);
-console.log(3 * 4);
-console.log(6 / 4);
-console.log(5 % 2); // 5/2
-console.log(2 ** 3); // 2*2*2
+// console.log(2 + 3);
+// console.log(5 - 2);
+// console.log(3 * 4);
+// console.log(6 / 4);
+// console.log(5 % 2); // 5/2
+// console.log(2 ** 3); // 2*2*2
 
 // Increament ( ++ ) / decrement ( -- )
 //  post - pre       post - pre
 
-let a = 4;
+// let a = 4;
 // console.log(a++);
 // console.log(a)
 
@@ -50,13 +50,13 @@ let a = 4;
 
 // assignment operator (= , += , -= , *= , /= , %= , **=)
 
-let num = 3;
+// let num = 3;
 
 // num =  num + a + 5;
 // num += 5;
-num += a + 5;
+// num += a + 5;
 
-console.log(num);
+// console.log(num);
 
 // camparision operator (> , >= , < , <= ,== ,=== , != , !==)
 console.log(4 > 5);
