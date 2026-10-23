@@ -1,0 +1,163 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 73px;
+  margin-top: 10px;
+  padding: 0 26px;
+  background: #cddb2b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-links a {
+  color: rgb(21, 20, 20);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f60a0a;
+}
+
+.home-content {
+  text-align: center;
+  padding: 62px 15px 30px;
+}
+
+.home-content h1 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+
+
+.page-content {
+  max-width: 750px;
+  margin: 45px auto;
+  padding: 30px;
+}
+
+.page-content h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.page-content h2 {
+  margin: 20px 0 12px;
+}
+
+.page-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
+  overflow-wrap: anywhere;
+}
+
+
+
+.service-card,
+.profile-card ,.about-card ,.contact-card{
+  padding: 20px;
+  margin: 25px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f8f8f8;
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-top: 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #555;
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    padding: 18px 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .home-content {
+    padding-top: 50px;
+  }
+
+  .home-content h1 {
+    font-size: 25px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .page-content {
+    margin: 25px 12px;
+    padding: 15px;
+  }
+}
