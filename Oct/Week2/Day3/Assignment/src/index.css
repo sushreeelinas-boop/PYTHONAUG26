@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme */
+.app.light {
+  background-color: #f5f7fb;
+  color: #222222;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  min-height: 75px;
+  padding: 15px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #88888840;
+}
+
+.navbar h2 {
+  font-size: 26px;
+}
+
+.theme-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.theme-buttons button {
+  padding: 11px 16px;
+  border: 1px solid #88888880;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+
+
+
+.theme-buttons button.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.theme-buttons button:hover {
+  transform: translateY(-2px);
+}
+
+/* Home */
+.home {
+  flex: 1;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: clamp(28px, 5vw, 42px);
+  margin-bottom: 20px;
+}
+
+.home > p {
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.info-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: left;
+  line-height: 1.8;
+  border: 1px solid #88888840;
+}
+
+.app.light .info-card {
+  background-color: #ffffff;
+  box-shadow: 0 5px 20px #0000000a;
+}
+
+.app.dark .info-card {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px 20px #00000020;
+}
+
+.info-card h2 {
+  margin-bottom: 12px;
+}
+
+.info-card p {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 22px 15px;
+  border-top: 1px solid #88888840;
+  line-height: 1.8;
+}
+
+.app.light .footer {
+  background-color: #e9edf5;
+}
+
+.app.dark .footer {
+  background-color: #1a1a1a;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navbar h2 {
+    width: 100%;
+  }
+
+  .theme-buttons {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .theme-buttons button {
+    flex: 1;
+  }
+
+  .home {
+    padding: 45px 16px;
+  }
+
+  .info-card {
+    padding: 20px;
+  }
+}
+.theme-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border: 1px solid #88888880;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
